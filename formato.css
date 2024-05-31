@@ -1,0 +1,306 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #AED6F1;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: rgba(128, 128, 128, 0.0); /* Gris translúcido */
+    padding: 200px;
+    width: 50%; 
+    height: 100%;
+    margin: 0 auto;
+    border: none;
+    background-image: url('caja.png');
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+.container2 {
+    background-color: rgba(128, 128, 128, 0.0); /* Gris translúcido */
+    padding: 100px;
+    width: 50%; 
+    height: 100%;
+    margin: 0 auto;
+    border: none;
+    background-image: url('caja.png');
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+/* formato de todos los inputs*/
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="submit"] {
+    display: inline-block; 
+    margin-bottom: 10px;
+    padding: 10px; 
+    border-radius: 10px; 
+    border: 2px solid #1B2631; 
+    background-color: rgba(128, 128, 128, 0.3); 
+    
+}
+
+/* formato de los botones*/
+
+.btnlog {
+    padding: 160px 160px; 
+    border: none;
+    background-image: url('login.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-color: rgba(128, 128, 128, 0.0); 
+    background-size: contain; 
+
+    position: relative;
+    top: -70px; 
+}
+.btnañadir {
+    padding: 160px 160px; 
+    border: none;
+    background-image: url('añadir.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-color: rgba(128, 128, 128, 0.0); 
+    background-size: contain; 
+
+    position: relative;
+    top: -70px; 
+}
+.btnañadir2 {
+    padding: 150px 150px; 
+    border: none;
+    background-image: url('añadir.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-color: rgba(128, 128, 128, 0.0); 
+    background-size: contain; 
+
+    position: relative;
+    top: -20px; 
+}
+.btnusu {
+    padding: 90px 90px; 
+    border: none;
+    background-image: url('usu.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-color: rgba(128, 128, 128, 0.0); 
+    background-size: contain; 
+
+    position: relative;
+    top: 0px; 
+}
+.btnentsal {
+    padding: 90px 90px; 
+    border: none;
+    background-image: url('entsal.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-color: rgba(128, 128, 128, 0.0); 
+    background-size: contain; 
+
+    position: relative;
+    top: 0px; 
+}
+.btnA {
+    padding: 70px 70px; 
+    border: none;
+    background-image: url('admin.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-color: rgba(128, 128, 128, 0.0); 
+    background-size: contain; 
+
+    position: relative;
+    top: 50px; 
+}
+.btnsalida {
+    padding: 90px 90px; 
+    border: none;
+    background-image: url('salida.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-color: rgba(128, 128, 128, 0.0); 
+    background-size: contain; 
+
+    position: relative;
+    top: 10px; 
+}
+.btnentrada{
+    padding: 90px 90px; 
+    border: none;
+    background-image: url('entrada.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-color: rgba(128, 128, 128, 0.0); 
+    background-size: contain; 
+
+    position: relative;
+    top: -10px; 
+}
+
+.btnAtras2 {
+    padding: 50px 50px; 
+    margin-right: 700px; 
+    border: none;
+    background-image: url('atras.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-color: rgba(128, 128, 128, 0.0); 
+    background-size: contain; 
+
+    position: relative;
+    top: -10px; 
+}
+
+
+.btnAtras {
+    padding: 50px 50px; 
+    margin-right: 350px; 
+    border: none;
+    background-image: url('atras.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-color: rgba(128, 128, 128, 0.0); 
+    background-size: contain; 
+
+    position: relative;
+    top: -110px; 
+}
+.btnAtras3 {
+    padding: 50px 50px; 
+    margin-right: 500px; 
+    border: none;
+    background-image: url('atras.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-color: rgba(128, 128, 128, 0.0); 
+    background-size: contain; 
+
+    position: relative;
+    top: 0px; 
+}
+
+
+.btnG {
+    padding: 40px 40px; 
+    border: none;
+    background-image: url('guardar.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-color: rgba(128, 128, 128, 0.0); 
+    background-size: contain; 
+
+    position: relative;
+    top: -10px; 
+}
+
+.btnE {
+    padding: 40px 40px; 
+    border: none;
+    background-image: url('eliminar.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-color: rgba(128, 128, 128, 0.0); 
+    background-size: contain; 
+
+    position: relative;
+    top: -10px; 
+}
+
+/* formato de tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    position: center;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  } 
+
+  @media screen and (max-width: 800px) {
+ 
+     .container{
+        padding: 20%; }
+
+     .container2{
+        padding: 120px; }
+
+    h1{
+        padding: 50px;
+        position: relative;
+        top: 60px;
+        }
+
+    .btnlog {
+        padding: 100px; }
+
+        input[type="text"],
+    input[type="number"],
+    input[type="password"],
+    input[type="submit"] {
+        padding: 2px; 
+    }
+    .btnentrada,
+    .btnsalida {
+        padding: 45px; 
+    }
+    .btnusu,
+    .btnentsal{
+        padding: 30%; }
+
+    .btnA{
+        padding: 20%; 
+        position: relative;
+        top: 10px;
+        }
+
+    .btnAtras{
+        padding: 20%; 
+        position: relative;
+        top: -10px;
+        left: -40px; 
+         }
+    .btnAtras2{
+        padding: 10%; }
+    .btnAtras3{
+        padding: 20%; 
+        position: relative;
+        top: 50px;
+        left: -70px; 
+         }
+    .btnañadir{
+        padding: 40%;
+        position: relative;
+        top: -10px; }
+    .btnañadir2{
+        padding: 40%;
+        position: relative;
+        top: -10px; }
+    .btnE{
+        padding: 10%; }
+    .btnG{
+        padding: 10%; }
+    table{
+        padding: 10%; }
+}
